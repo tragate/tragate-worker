@@ -1,0 +1,77 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ninjafx/tragate-tech/tragate-worker/src/Tragate.Console/Tragate.Console.csproj",
+    "projectName": "Tragate.Console",
+    "projectPath": "/Users/ninjafx/tragate-tech/tragate-worker/src/Tragate.Console/Tragate.Console.csproj",
+    "outputPath": "/Users/ninjafx/tragate-tech/tragate-worker/src/Tragate.Console/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.50.4, )"
+        },
+        "HangFire": {
+          "target": "Package",
+          "version": "[1.7.0-beta1, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "NEST": {
+          "target": "Package",
+          "version": "[6.1.0, )"
+        },
+        "Serilog": {
+          "target": "Package",
+          "version": "[2.7.1, )"
+        },
+        "Serilog.Extensions.Logging": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "Serilog.Settings.Configuration": {
+          "target": "Package",
+          "version": "[2.6.1, )"
+        },
+        "Serilog.Sinks.Elasticsearch": {
+          "target": "Package",
+          "version": "[6.5.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

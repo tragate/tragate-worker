@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_tragate-worker.-1434031726.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="Tragate.Console" t="IncludeRecursive">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.Production.json" t="Include" />
+          <e p="Bin" t="ExcludeRecursive" />
+          <e p="Dto" t="Include">
+            <e p="Base" t="Include">
+              <e p="Root.cs" t="Include" />
+            </e>
+            <e p="CategoryNode.cs" t="Include" />
+            <e p="CategoryTreeDto.cs" t="Include" />
+            <e p="CompanyDataDto.cs" t="Include" />
+            <e p="CompanyDto.cs" t="Include" />
+            <e p="LocationDto.cs" t="Include" />
+            <e p="ProductDto.cs" t="Include" />
+            <e p="UserDto.cs" t="Include" />
+          </e>
+          <e p="Helper" t="Include">
+            <e p="Extensions.cs" t="Include" />
+            <e p="TragateConstants.cs" t="Include" />
+          </e>
+          <e p="Infrastructure" t="Include">
+            <e p="ConfigSettings.cs" t="Include" />
+            <e p="IRecurringJob.cs" t="Include" />
+          </e>
+          <e p="Jobs" t="Include">
+            <e p="ReIndexCompanyDataJob.cs" t="Include" />
+            <e p="ReIndexJob.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Tragate.Console.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Repository" t="Include">
+            <e p="CompanyDataRepository.cs" t="Include" />
+            <e p="CompanyRepository.cs" t="Include" />
+            <e p="ICompanyDataRepository.cs" t="Include" />
+            <e p="ICompanyRepository.cs" t="Include" />
+            <e p="IProductRepository.cs" t="Include" />
+            <e p="ProductRepository.cs" t="Include" />
+          </e>
+          <e p="Service" t="Include">
+            <e p="ElasticsearchService.cs" t="Include" />
+            <e p="IElasticSearchService.cs" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="Tragate.Console.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="tragate-worker.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
